@@ -126,5 +126,21 @@ int main(){
     // Equivalente a ((f1 || f2) && !(f1 && f2))
     cout << "f1 xor f2: " << (f1 ^ f2) << '\n';
 
+    // Para todos los operadores (binarios) anteriores, existe
+    // la opción de combinarlos con el operador de asignación (=)
+    // de tal manera que para una operador como la suma
+    // `a = a + b` es equivalente a poner `a += b`
+    // a += b;
+    // a -= b;
+    // a *= b;
+    // a /= b;
+    // a %= b;
+    //
+    // Y lo mismo para los operadores lógicos
+    //
+    // f1 &= f2;
+    // f1 |= f2;
+    // f1 ^= f2;
+
     return 0;
 }
